@@ -8,8 +8,12 @@ public class Shelter extends Dog {
         this.address = address1;
     }
 
-    @Override
     public String getAddress() {
         return address;
+    }
+
+    public String info(){
+        return super.dog() + " Adress " + address;
+
     }
 }
