@@ -13,8 +13,6 @@ public class Main {
         System.out.println(shelter.info());
         System.out.println(dog.dog());
         System.out.println(dog1.dog());
-
-
     }
 
 }
